@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Assignment 1</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="index.css" />
+  <script type="text/javascript" src="index.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <p class="para"> Enter Your Details</p>
+  <div>
+    <form id="details">
+
+      <label for="fname">First name</label>
+      <input type="text"  name="fname" placeholder="Enter First Name.."><br><br>
+      <label for="lname">Last name</label>
+      <input type="text"  name="lname" placeholder="Enter Last Name.."><br><br>
+
+      <label for="city">City</label>
+      <input type="text" id="city" name="city" placeholder="Enter City.."><br><br>
+      <label for="country">Country</label>
+      <input type="text" id="country" name="country" placeholder="Enter Country.."><br><br>
+     
+    </form>
+  <div>
+    <div class="container">
+
+        <button class="button"  type="button" onclick="firstEntry()">
+          Add row to top
+        </button>
+        <button class="button" type="button" onclick="lastEntry()">
+          Add row to bottom
+        </button>
+      
+    </div>
+  </div>
+    <table class="center" id="table">
+      
+      <thead>
+        <th scope="col">SL. No.,</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">City</th>
+        <th scope="col">Country</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>&nbsp;</td>
+          <td>Akhand</td>
+          <td>Pratap</td>
+          <td>Delhi</td>
+          <td>India</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>Aman</td>
+          <td>Goel</td>
+          <td>Ghaziabad</td>
+          <td>India</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>Aditya</td>
+          <td>Kitchlu</td>
+          <td>New York</td>
+          <td>America</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>Lavitesh</td>
+          <td>Verma</td>
+          <td>Kanpur</td>
+          <td>India</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>Deepak</td>
+          <td>Kumar</td>
+          <td>Delhi</td>
+          <td>India</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+
+  </div>
+
+
+</body>
+
+</html>
